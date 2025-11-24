@@ -1,0 +1,61 @@
+<!doctype html>
+</div>
+</section>
+
+
+<section id="services" class="card" style="margin-top:18px">
+<h2>Services</h2>
+<div class="services">
+<div class="service"><h4>Service A</h4><p style="color:var(--muted)">Short summary. Price: €[amount] or Contact for quote.</p></div>
+<div class="service"><h4>Service B</h4><p style="color:var(--muted)">Short summary.</p></div>
+<div class="service"><h4>Service C</h4><p style="color:var(--muted)">Short summary.</p></div>
+</div>
+</section>
+
+
+<section id="shop">
+<h2 style="margin-top:18px">Shop (coming soon)</h2>
+<div class="shop">
+<div class="product card"><img src="https://via.placeholder.com/280x180?text=Product+1" alt="Product 1" style="width:100%;height:auto;border-radius:8px;margin-bottom:8px"><strong>Product 1</strong><div style="color:var(--muted)">€29 — <a href="#" style="text-decoration:none;color:inherit">Buy</a></div></div>
+<div class="product card"><img src="https://via.placeholder.com/280x180?text=Product+2" alt="Product 2" style="width:100%;height:auto;border-radius:8px;margin-bottom:8px"><strong>Product 2</strong><div style="color:var(--muted)">€49 — <a href="#" style="text-decoration:none;color:inherit">Buy</a></div></div>
+</div>
+<p style="color:var(--muted);margin-top:10px">Tip: Connect to Shopify Lite, Gumroad, or Stripe Checkout for payments.</p>
+</section>
+
+
+<section id="facebook" class="fb-wrap card">
+<h2>Follow on Facebook</h2>
+<!-- Facebook Page plugin iframe -->
+<div style="max-width:340px">
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdaniellorenzolerio.1990&tabs=timeline&width=340&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+</section>
+
+
+<section id="contact" class="card" style="margin-top:18px">
+<h2>Contact</h2>
+<form id="contactForm">
+<input type="text" name="name" placeholder="Your name" required>
+<input type="email" name="email" placeholder="Your email" required>
+<textarea name="message" rows="5" placeholder="What do you want to do?" required></textarea>
+<div style="display:flex;gap:10px">
+<button type="submit" class="btn">Send message</button>
+<a class="btn alt" href="mailto:youremail@example.com">Email directly</a>
+</div>
+<div id="formMsg" style="color:var(--muted);font-size:13px;margin-top:8px"></div>
+</form>
+</section>
+
+
+</main>
+
+
+<footer>
+© <span id="year"></span> Daniel Lorenzolério · Built with care · <a href="#privacy">Privacy</a>
+</footer>
+
+
+<script>
+// small JS: form handling (example only)
+document.getElementById('year').textContent = new Date().getFullYear();
+const form = document.getElementById('c
